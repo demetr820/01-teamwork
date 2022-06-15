@@ -8,16 +8,22 @@
   <title>Куда я поеду?</title>
 </head>
 <body class="page">
-  <header class="header">
-    <div class="header__container">
-      <nav>
-        <ul>
-          <li><a href="#"></a>Мечты</li>
-          <li><a href="#"></a>Ожидания</li>
-          <li><a href="#"></a>Реальность</li>
+  <header class="header outline-red">
+    <div class="header__container outline-purple">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link"href="#">Мечты</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link"href="#">Ожидания</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link"href="#">Реальность</a>
+          </li>
         </ul>
       </nav>
-      <button type="button">Пожаловаться</button>
+      <a class="navigation__link" type="button">Пожаловаться</a>
     </div>
   </header>
   <main class="content">
@@ -28,7 +34,10 @@
       <h2 class="intro__title">
         Куда я поеду сразу, как можно будет куда-то поехать
       </h2>
-      <img src="images/intro-image.jpeg" alt="самолет в облаках">
+      <figure>
+        <img src="images/intro-image.jpeg" alt="самолет в облаках">
+
+      </figure>
     </section>
     <section>
       <img src="images/places-forest.jpeg" alt="поеду в лес">
@@ -43,5 +52,8 @@
       </p>
     </section>
   </main>
+  <footer class="footer">
+    <p>© 2020</p>
+  </footer>
 </body>
 </html>
