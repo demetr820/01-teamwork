@@ -1,4 +1,7 @@
 .intro__subtitle {
+  margin: 0 0 41px 0;
+  font-size: 20px;
   color: #fecda7;
-
+  line-height: 1.2;
+  text-transform: uppercase;
 }

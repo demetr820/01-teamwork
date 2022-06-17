@@ -1,4 +1,7 @@
 .intro__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
   box-sizing: border-box;
 }

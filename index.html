@@ -9,8 +9,8 @@
 </head>
 <body class="page">
   <!-- Ширина центровщика пока 1184px, потом можно будет поменять -->
-  <header class="header outline-red">
-    <div class="header__container outline-purple">
+  <header class="header">
+    <div class="header__container">
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
@@ -24,7 +24,9 @@
           </li>
         </ul>
       </nav>
-      <a class="navigation__link" type="button">Пожаловаться</a>
+      <!-- <div class="button"> -->
+        <a class="navigation__link" href="#">Пожаловаться</a>
+      <!-- </div> -->
     </div>
   </header>
   <main class="content">
@@ -38,7 +40,7 @@
         </h2>
       </div>
       <figure class="intro__image-block">
-        <img src="images/intro-image.jpeg" alt="самолет в облаках">
+        <img class="intro__image" src="images/intro-image.jpeg" alt="самолет в облаках">
 
       </figure>
     </section>
@@ -56,7 +58,7 @@
     </section>
   </main>
   <footer class="footer">
-    <p>© 2020</p>
+      <p class="footer__copyright">© 2020</p>
   </footer>
 </body>
 </html>

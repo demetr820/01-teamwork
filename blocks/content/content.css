@@ -1,6 +1,5 @@
-.intro {
-  display: flex;
-  width: 100%;
+.content {
+  min-width: 320px;
   max-width: 1184px;
   margin: 0 auto;
 }
