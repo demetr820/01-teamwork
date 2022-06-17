@@ -3,7 +3,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1410px;
   min-height: 412px;
+  margin: 0 auto;
   background-color: #fecda7;
   box-sizing: border-box;
+}
+@media (max-width: 930px) {
+  .footer {
+    min-height: 279px;
+  }
 }

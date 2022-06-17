@@ -8,9 +8,8 @@
     <title>Куда я поеду?</title>
   </head>
   <body class="page">
-    <!-- Ширина центровщика пока 1184px, потом можно будет поменять -->
-    <header class="header outline-red">
-      <div class="header__container outline-purple">
+    <header class="header">
+      <div class="header__container">
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -35,9 +34,10 @@
             Куда я поеду сразу, как можно будет куда-то поехать
           </h2>
         </div>
-        <figure class="intro__image-block">
-          <img src="images/intro-image.jpeg" alt="самолет в облаках" />
-        </figure>
+        <div class="intro__image"></div>
+        <!-- <img class="intro__image" src="images/intro-image.jpeg" alt="самолет в облаках" /> -->
+        <!-- <figure class="intro__image-block">
+        </figure> -->
       </section>
 
       <section class="plans">
@@ -111,9 +111,44 @@
         <!-- /.place -->
       </section>
       <!-- /.plans -->
+      <section class="reviews">
+        <p class="reviews__subtitle">Люди</p>
+        <h2 class="reviews__title">
+          Что говорят и говорили люди о путешествиях
+        </h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Иван Бунин</h3>
+            <p class="reviews__item-text">
+              Человека делают счастливым три вещи: любовь, интересная работа и
+              возможность путешествовать.
+            </p>
+          </li>
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Альбер Камю</h3>
+            <p class="reviews__item-text">
+              Путешествие как самая великая и серьезная наука помогает нам вновь
+              обрести себя.
+            </p>
+          </li>
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Норвежская пословица</h3>
+            <p class="reviews__item-text">
+              Лишь тот, кто странствует, открывает новые пути.
+            </p>
+          </li>
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Мария Захарова</h3>
+            <p class="reviews__item-text">
+              В принципе зарубежная поездка – это серьезнейшее, ответственнейшее
+              и очень рискованное предприятие.
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
-      <p>© 2020</p>
+      <p class="footer__copyright">© 2020</p>
     </footer>
   </body>
 </html>

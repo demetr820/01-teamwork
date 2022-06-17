@@ -1,6 +1,13 @@
 .intro__title {
   margin: 0;
-  font-size: 43px;
+  font-size: 40px;
   line-height: 1.2;
   font-weight: 700;
+}
+@media (max-width: 930px) {
+  .intro__title {
+    text-align: center;
+    font-size: 26px;
+  }
+
 }

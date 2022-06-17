@@ -1,5 +1,29 @@
+/* .intro__image {
+  display: block;
+  width: 100%;
+  height: 592px;
+  height: auto;
+  padding: 90px;
+  box-sizing: border-box;
+  object-fit: cover;
+} */
 .intro__image {
   display: block;
-  max-width: 100%;
-  object-fit: contain;
+  width: 100%;
+  padding: 20%;
+  box-sizing: border-box;
+}
+.intro__image::after {
+  content: '';
+  display: block;
+  padding-top: 100%;
+  background-image: url('../../../images/intro-image.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+@media (max-width: 930px) {
+  .intro__image {
+    padding: 10%;
+  }
 }

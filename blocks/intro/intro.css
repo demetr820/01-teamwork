@@ -1,6 +1,13 @@
 .intro {
-  display: flex;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-flow: row;
   width: 100%;
-  max-width: 1184px;
   margin: 0 auto;
+}
+@media  (max-width: 930px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
 }
